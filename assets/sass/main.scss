@@ -19,8 +19,8 @@
 		xlarge:   ( 1281px,  1680px ),
 		large:    ( 981px,   1280px ),
 		medium:   ( 737px,   980px  ),
-		small:    ( 481px,   736px  ),
-		xsmall:   ( null,    480px  ),
+		small:    ( 320px,   736px  ),
+		xsmall:   ( null,    320px  ),
 	));
 
 // Reset.
@@ -793,7 +793,9 @@
 
 		&.major {
 			padding: 1em 0;
-
+			@include breakpoint('<=small') {
+				padding: 0 2em !important;
+			}
 			li {
 				padding-right: 3.5em;
 

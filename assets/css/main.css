@@ -3695,10 +3695,7 @@ input, select, textarea {
 					font-size: 1.25em;
 				}
 
-				#banner br {
-					display: none;
-				}
-
+				
 				#banner .more {
 					display: none;
 				}
@@ -3860,6 +3857,11 @@ input, select, textarea {
 	body.is-mobile #main > header {
 		background-attachment: scroll;
 	}
+	@media screen and (max-width: 376px){
+		.icons{
+			padding: 1em 2em;
+		}}
+	
 
 /* Footer */
 
@@ -3912,7 +3914,7 @@ input, select, textarea {
 						color: #fff;
 					}
 
-				@media screen and (max-width: 480px) {
+				@media screen and (max-width: 376px) {
 
 					#footer .copyright li {
 						border: 0;
