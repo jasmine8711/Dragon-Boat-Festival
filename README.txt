@@ -1,3 +1,5 @@
+This is a project I use template from HTML 5 to make, Thought this project, I start to understand more of HTML and SASS, by change some styles. I also learn the DRY principle from the template.
+_______________________________________________
 Spectral by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
